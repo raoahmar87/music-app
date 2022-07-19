@@ -1,4 +1,5 @@
 class RegistrationsController < Devise::RegistrationsController
+  before_filter :sign_up_params
   
   private
 

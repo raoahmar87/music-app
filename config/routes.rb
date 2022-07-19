@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  resources :line_items
+  resources :carts
   devise_for :users, controller: {
-    registrations: 'devise/registrations'
+    registrations: 'registrations'
   }
   resources :instruments
   root to: "instruments#index"

@@ -29,7 +29,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'jquery-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
